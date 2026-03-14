@@ -9,12 +9,20 @@ export default function App() {
     const [currentPage, setCurrentPage] = useState('smm');
     const [scrollY, setScrollY] = useState(0);
     const [showSplash, setShowSplash] = useState(true);
-
+    
     useEffect(() => {
         const handleScroll = () => setScrollY(window.scrollY);
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+    useEffect(() => {
+      if (window.gtag) {
+        window.gtag("config", "G-G6DHQXW1FG", {
+          page_path: currentPage,
+        });
+      }
+    }, [currentPage]);
 
     const handlePageChange = (page) => {
         setCurrentPage(page);
