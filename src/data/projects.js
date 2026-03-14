@@ -47,7 +47,7 @@ export const projects = [
     },
     {
         id: 5,
-        name: 'Talapatra Kala',
+        name: 'Talapatrakala',
         tags: [
             { label: 'E-commerce', color: 'bg-teal/20 text-teal border-teal/30' },
             { label: 'Handicrafts', color: 'bg-amber-500/20 text-amber-400 border-amber-500/30' },
@@ -66,5 +66,93 @@ export const projects = [
         description: 'Professional weighing systems and industrial equipment showcase',
         url: 'https://weitechweighing.com/',
         metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 7,
+        name: 'Trio Studio',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 8,
+        name: 'JK Distributors',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 9,
+        name: 'Samved Projects',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 10,
+        name: 'Weitech Weighing Systems',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 11,
+        name: 'Andhra Hasthakala',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 11,
+        name: 'Narasapurlace',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 12,
+        name: 'Mahavirmotor Accessories',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'Professional weighing systems and industrial equipment showcase',
+        url: 'https://weitechweighing.com/',
+        metrics: { pageSpeed: 55, seo: 85 },
+    },
+    {
+        id: 12,
+        name: 'aditi-nikhil',
+        tags: [
+            { label: 'B2B Platform', color: 'bg-indigo-500/20 text-indigo-400 border-indigo-500/30' },
+            { label: 'Industrial', color: 'bg-slate-400/20 text-slate-300 border-slate-400/30' },
+        ],
+        description: 'A thoughtfully designed wedding website providing guests with event information, schedule, location.',
+        url: 'https://www.aditi-nikhil.com/',
+        metrics: { pageSpeed: 89, seo: 100 },
     },
 ];
